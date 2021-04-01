@@ -1,0 +1,207 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin:0;
+    text-align: center;
+}
+#container{
+    padding: 0;
+    height: 610px;
+    background: url("./images/pexels-ann-nekr-5797903.jpg")no-repeat center/cover;
+    opacity: 1;
+    
+} 
+.inner-container{
+    height: 610px;
+    background: #000;
+    opacity: 0.9;   
+}
+#navbar{  
+    font-size: 25px;
+    position: fixed;
+    top: 0; 
+    background: #000;
+    opacity: 0.9;
+    width: 100%;
+    
+}
+#navbar ul li{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navbar ul{
+    float: right;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:#fff; 
+}
+#navbar a:hover{
+    color: rgb(53, 202, 33);
+        /* font-weight: 600; */
+    }
+
+h1{
+    margin-top: 0;
+    color:#fff;
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 300px;
+    
+    
+}
+img{
+    width: 25%;
+    margin-top: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.959);
+}
+.name{
+    margin-left: 0;
+    font-size: 1.5rem;
+    margin: 0px;
+}
+span{
+    color: rgb(53, 202, 33);
+}
+.name h3{
+    margin-bottom: 10px;
+    color:  #fff;
+}
+.name p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+
+.skills{
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.959);
+}
+h2{
+    font-size: 2rem;
+    margin: auto auto 5px auto;
+    color: rgb(53, 202, 33);
+    padding-top: 20px ;
+}
+.skills p{
+    
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+#Hobbies{
+    padding-top: 50px ;
+    text-align:left;
+    font-size: 1.2rem;
+    margin: 0 auto 0 70px;
+    padding-bottom: 25px;
+    color: rgba(255, 255, 255, 0.788);
+}
+#projects{
+  background-color:#fff;
+    background-color: rgb(22, 22, 22);
+ 
+}
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.imgs{
+    width: 70%;
+}
+#projects a{
+    text-decoration: none;
+    color:#fff; 
+    font-size: 1.4rem;
+}
+#projects a:hover{
+    color: rgb(53, 202, 33);
+    font-weight: 600;
+}
+
+#contact{
+    background-color: #000;
+    padding-bottom: 2rem;
+    
+}
+#contact a{
+    text-decoration: none;
+  color: #fff;
+}
+#contact a:hover{
+    color: #f4f4f491;
+}
+#contact li{
+    display: inline;
+    padding: 20px;
+    font-size: 2rem;
+  
+}
+#contact ul{
+    margin-bottom: 0;
+}
+#contact .fa-facebook{
+    padding-right: 10px;
+}
+#contact .fa-github{
+    padding-right: 10px;
+}#contact .fa-envelope-square{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+    /*media Queries*/
+    @media(max-width: 1090px){
+        #navbar{  
+            font-size: 30px;
+            width: 100%;
+        }
+        h1{
+            font-size: 7rem;
+            padding-top: 13rem;
+        }
+        .flex{
+            display: block;
+        }
+        .name {
+            padding-bottom: 1rem;
+            font-size: 2rem;
+        }
+        table{
+            margin-left: 35%;
+            padding: 1rem;
+            font-size: 1.5rem ;
+        }
+        #Hobbies{
+            margin-left: 35%;
+            padding: 1rem;
+            font-size: 1.7rem ;
+            font-weight: 100;
+        }
+        #flex p{
+           margin-bottom: 0;
+           padding-bottom: 20px;
+        }
+        #flex{
+            display: block;
+        }
+      #contact li{
+          display: block;
+      }
+    }
