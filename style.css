@@ -136,6 +136,10 @@ h2{
     padding-bottom: 2rem;
     
 }
+#contact p{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 1.5rem;
+}
 #contact a{
     text-decoration: none;
   color: #fff;
@@ -168,13 +172,22 @@ h2{
 
     /*media Queries*/
     @media(max-width: 1090px){
+        body{
+            width: 100%;
+        }
         #navbar{  
             font-size: 30px;
             width: 100%;
+    
         }
+       
         h1{
-            font-size: 7rem;
+            font-size: 6rem;
             padding-top: 13rem;
+        }
+        img{
+            padding-top: 20px;
+            width: 40%;
         }
         .flex{
             display: block;
